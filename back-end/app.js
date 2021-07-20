@@ -11,7 +11,7 @@ app.use(express.json()); // Parse incoming JSON
 
 // ROUTES
 app.get("/", (req, res) => {
-  res.send("Hello, world!");
+  res.send("Welcome To The Pop Up Shop");
 });
 
 /////////////////////////////////////
