@@ -1,6 +1,6 @@
 const express = require("express");
 const productsController = express.Router();
-const { fetchAllProducts, getProduct, updateProduct, createProduct } = require("../queries/products");
+const { fetchAllProducts, getProduct, updateProduct, createProduct, deleteProduct } = require("../queries/products");
 
 
 productsController.get("/", async (req, res) => {
@@ -32,12 +32,12 @@ productsController.put("/:id", async (req, res) => {
     }
 })
 
-
-
-
-
-
-
-
+productsController.delete("/:id", async (req, res) => {
+    const { id } = req.params;
+    const deletedProduct = await deleteProduct(id);
+    res.json({
+        success:true, payload: deletedProduct
+    });
+});
 
 module.exports = productsController;
