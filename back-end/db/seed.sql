@@ -1,5 +1,3 @@
-\c products_dev;
-
 INSERT INTO products (name, photo, description, price) VALUES 
     ('item one', 'picture one', 'this is an item for sale', 11.11),
 ('item two', 'picture two', 'this is the second item for sale', 14.51),

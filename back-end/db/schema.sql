@@ -1,6 +1,3 @@
-\c products_dev;
-
-
 CREATE TABLE products (
     id SERIAL PRIMARY KEY, 
     name TEXT NOT NULL,
