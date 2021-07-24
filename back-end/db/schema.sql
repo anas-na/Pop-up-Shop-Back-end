@@ -9,5 +9,5 @@ CREATE TABLE products (
     name TEXT NOT NULL,
     photo TEXT NOT NULL,
     description TEXT NOT NULL,
-    price INT NOT NULL
+    price NUMERIC NOT NULL
 );
