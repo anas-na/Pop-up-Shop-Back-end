@@ -28,7 +28,7 @@ productsController.put("/:id", async (req, res) => {
         });
     } else{
         const editedProduct = await updateProduct(params.id, body);
-        res.json({success: true, payload: editedProduct})
+        res.json({success: true, payload: editedProduct});
     }
 })
 
