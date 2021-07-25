@@ -1,8 +1,9 @@
+
 INSERT INTO products (name, photo, description, price) VALUES 
-('Alien Sneaker', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7r6nywSvqE9jLM1eH-UsemEH9EJE116gKmw&usqp=CAU', 'This will transport you to outerspace', 349.99),
-('Glass Sneaker', 'image', 'Hot sweaty foot', 149.99),
-('item three', 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.WzCrDqrUfX2awdKwLZJfnwHaHa%26pid%3DApi&f=1', 'this is the third for sale', 3.15),
-('item four', 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.xwSevD0Vj5g99-VoDJz6-wHaEE%26pid%3DApi&f=1', 'this is the fourth for sale', 4.84),
-('item five', 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.PZ94ih51OTpZP1sF3-uazAHaEx%26pid%3DApi&f=1', 'this is the fifth for sale', 5.25),
-('item six', 'picture six', 'this is the sixth for sale', 60.66)
+('Alien Sneaker', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7r6nywSvqE9jLM1eH-UsemEH9EJE116gKmw&usqp=CAU', 'New Men Running Shoes Shock Absorption Unique Design Blade Breathable Lightweight Comfortable Athletic Sports Sneakers Walking', 49.99),
+('Pride Sneaker', 'https://underarmour.scene7.com/is/image/Underarmour/3024389-001_ALT?rp=standard-30pad|pdpMainDesktop&scl=1&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=566&hei=708&size=536,688', 'celebrate and show off your pride with this colorful sneaker from Under Armour', 149.99),
+('Self-Lacing Sneaker', 'https://cms.qz.com/wp-content/uploads/2016/10/nike-mag-2016-official-06_original-cropped.jpg?quality=75&strip=all&w=1600&h=900&crop=1%27', 'Self-Lacing Sneakers', 300.00),
+('Kinetic Kicks', 'https://columbia.scene7.com/is/image/ColumbiaSportswear2/1981431_100_f2?wid=768&hei=806&v=1624997482%27', 'Womens’ lightweight jogger features a plush EVA footbed and is prime for daily jaunts and all-day comfort', 79.98),
+('Retro Galaxy sneakers', 'https://i.pinimg.com/originals/ee/36/0f/ee360f2306ce503046f8ea232c0e5a65.jpg', 'Revamp of the original black and white retros with a galaxy feel.', 250.00),
+('Captain America Sneaker', 'https://i.insider.com/5cd08291021b4c615a58f522?width=1000&format=jpeg&auto=webp', 'feel your Superhero power', 99.99)
 
